@@ -1,6 +1,6 @@
 {
   "name": "feathers4-opcua-server",
-  "description": "A FeathersJS 'OPC-UA' application",
+  "description": "A FeathersJS 'OPCUA' application",
   "version": "0.0.1",
   "homepage": "https://github.com/bsa-git/feathers4-opcua-server",
   "main": "src",
