@@ -1,0 +1,224 @@
+{
+  "app": {
+    "envTestModeName": "test",
+    "envDevModeName": "development",
+    "envProdModeName": "production",
+    "envAllowingSeedData": [
+      "test"
+    ],
+    "envAllowingOpcuaBootstrap": [
+      "development",
+      "production"
+    ],
+    "seedData": true,
+    "name": "feathers-opcua-server",
+    "description": "Project feathers-opcua-server",
+    "src": "src",
+    "providers": [
+      "rest",
+      "socketio"
+    ]
+  },
+  "services": {
+    "users": {
+      "name": "users",
+      "nameSingular": "user",
+      "subFolder": "",
+      "fileName": "users",
+      "adapter": "nedb",
+      "path": "/users",
+      "isAuthEntity": true,
+      "requiresAuth": true,
+      "overriddenAuth": {
+        "create": "noauth",
+        "get": "auth",
+        "find": "auth",
+        "update": "auth",
+        "patch": "auth",
+        "remove": "auth"
+      }
+    },
+    "userProfiles": {
+      "name": "userProfiles",
+      "nameSingular": "userProfile",
+      "subFolder": "",
+      "fileName": "user-profiles",
+      "adapter": "nedb",
+      "path": "/user-profiles",
+      "isAuthEntity": false,
+      "requiresAuth": true,
+      "overriddenAuth": {
+        "create": "noauth",
+        "get": "auth",
+        "find": "auth",
+        "update": "auth",
+        "patch": "auth",
+        "remove": "auth"
+      }
+    },
+    "roles": {
+      "name": "roles",
+      "nameSingular": "role",
+      "subFolder": "",
+      "fileName": "roles",
+      "adapter": "nedb",
+      "path": "/roles",
+      "isAuthEntity": false,
+      "requiresAuth": true,
+      "overriddenAuth": {
+        "create": "auth",
+        "get": "auth",
+        "find": "auth",
+        "update": "auth",
+        "patch": "auth",
+        "remove": "auth"
+      }
+    },
+    "teams": {
+      "name": "teams",
+      "nameSingular": "team",
+      "subFolder": "",
+      "fileName": "teams",
+      "adapter": "nedb",
+      "path": "/teams",
+      "isAuthEntity": false,
+      "requiresAuth": true,
+      "overriddenAuth": {
+        "create": "auth",
+        "get": "auth",
+        "find": "auth",
+        "update": "auth",
+        "patch": "auth",
+        "remove": "auth"
+      }
+    },
+    "userTeams": {
+      "name": "userTeams",
+      "nameSingular": "userTeam",
+      "subFolder": "",
+      "fileName": "user-teams",
+      "adapter": "nedb",
+      "path": "/user-teams",
+      "isAuthEntity": false,
+      "requiresAuth": true,
+      "overriddenAuth": {
+        "create": "auth",
+        "get": "auth",
+        "find": "auth",
+        "update": "auth",
+        "patch": "auth",
+        "remove": "auth"
+      }
+    },
+    "logMessages": {
+      "name": "logMessages",
+      "nameSingular": "logMessage",
+      "subFolder": "",
+      "fileName": "log-messages",
+      "adapter": "nedb",
+      "path": "/log-messages",
+      "isAuthEntity": false,
+      "requiresAuth": true,
+      "overriddenAuth": {
+        "create": "noauth",
+        "get": "auth",
+        "find": "auth",
+        "update": "auth",
+        "patch": "auth",
+        "remove": "auth"
+      }
+    },
+    "chatMessages": {
+      "name": "chatMessages",
+      "nameSingular": "chatMessage",
+      "subFolder": "",
+      "fileName": "chat-messages",
+      "adapter": "nedb",
+      "path": "/chat-messages",
+      "isAuthEntity": false,
+      "requiresAuth": true,
+      "overriddenAuth": {
+        "create": "auth",
+        "get": "auth",
+        "find": "auth",
+        "update": "auth",
+        "patch": "auth",
+        "remove": "auth"
+      }
+    },
+    "messages": {
+      "name": "messages",
+      "nameSingular": "message",
+      "subFolder": "",
+      "fileName": "messages",
+      "adapter": "nedb",
+      "path": "/messages",
+      "isAuthEntity": false,
+      "requiresAuth": true,
+      "overriddenAuth": {
+        "create": "auth",
+        "get": "auth",
+        "find": "auth",
+        "update": "auth",
+        "patch": "auth",
+        "remove": "auth"
+      }
+    },
+    "opcuaTags": {
+      "name": "opcuaTags",
+      "nameSingular": "opcuaTag",
+      "subFolder": "",
+      "fileName": "opcua-tags",
+      "adapter": "nedb",
+      "path": "/opcua-tags",
+      "isAuthEntity": false,
+      "requiresAuth": true,
+      "overriddenAuth": {
+        "create": "auth",
+        "get": "auth",
+        "find": "auth",
+        "update": "auth",
+        "patch": "auth",
+        "remove": "auth"
+      }
+    },
+    "opcuaValues": {
+      "name": "opcuaValues",
+      "nameSingular": "opcuaValue",
+      "subFolder": "",
+      "fileName": "opcua-values",
+      "adapter": "nedb",
+      "path": "/opcua-values",
+      "isAuthEntity": false,
+      "requiresAuth": true,
+      "overriddenAuth": {
+        "create": "auth",
+        "get": "auth",
+        "find": "auth",
+        "update": "auth",
+        "patch": "auth",
+        "remove": "auth"
+      }
+    }
+  },
+  "hooks": {
+    "normalize": {
+      "fileName": "normalize",
+      "camelName": "normalize",
+      "ifMulti": "y",
+      "multiServices": [
+        "*app"
+      ],
+      "singleService": ""
+    },
+    "log": {
+      "fileName": "log",
+      "camelName": "log",
+      "ifMulti": "y",
+      "multiServices": [
+        "*app"
+      ],
+      "singleService": ""
+    }
+  }
+}

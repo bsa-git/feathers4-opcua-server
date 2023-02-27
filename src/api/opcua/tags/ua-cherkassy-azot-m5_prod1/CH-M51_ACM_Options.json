@@ -1,0 +1,160 @@
+{
+  "objects": [
+    {
+      "browseName": "CH_M51_ACM",
+      "displayName": "Черкассы 'АЗОТ' цех M5/1 ACM  Агр(2..3)",
+      "type": "object",
+      "view": {
+        "tab1": [
+          { "name": "Концентрация N2O", "items": ["N2O"] },
+          { "name": "Выхлоп. Газы", "items": ["VSG"] },
+          { "name": "Коррекция N2O", "items": ["N2O_CORR"] },
+          { "name": "Коррекция VSG", "items": ["VSG_CORR"] },
+          { "name": "F105 Работает", "items": ["HNO3"] }
+        ]
+      }
+    }
+  ],
+  "variables": [
+    {
+      "browseName": "CH_M51_ACM::ValueFromFile",
+      "displayName": "Values from file for CH_M51_ACM",
+      "ownerName": "CH_M51_ACM",
+      "type": "variable.simple",
+      "dataType": "String",
+      "hist": 1,
+      "group": true,
+      "variableGetType": "valueFromSource",
+      "getter": "getterAcmDayValueFromPath",
+      "getterParams": {
+        "path": "//192.168.3.5/www_m5/day_reports/m5-1/ACM/23AGR/",
+        "acmPath": "//192.168.3.5/www_m5/day_reports/m5-1/ACM/23AGR/",
+        "pointID": 1,
+        "excelMappingFrom": {"rangeData": "B11:F34", "rangeDate": "A1:A1", "headerNames": ["23QN2O", "23QN2O_CORR", "23FVSG", "23FVSG_CORR", "23F105_IS"]}
+      }
+    }
+  ],
+  "groups": [
+    {
+      "browseName": "CH_M51_ACM::23N2O:23QN2O",
+      "aliasName": "23QN2O",
+      "displayName": "23QN2O",
+      "ownerName": "CH_M51_ACM",
+      "ownerGroup": "CH_M51_ACM::ValueFromFile",
+      "type": "variable.array",
+      "dataType": "Double",
+      "hist": 1,
+      "variableGetType": "valueFromSource",
+      "valueFromSourceParams": {
+        "dataType": "Double",
+        "arrayType": "Array"
+      },
+      "getter": "getterPlugForVariable",
+      "valueParams": {
+        "arrayDimensions": [
+          24
+        ],
+        "engineeringUnitsRange": {
+          "low": 0,
+          "high": 2000
+        },
+        "engineeringUnits": "milligram_per_cubic_metre"
+      },
+      "description": "Концентрация N2O (Q N2O)"
+    },
+    {
+      "browseName": "CH_M51_ACM::23VSG:23FVSG",
+      "aliasName": "23FVSG",
+      "displayName": "23FVSG",
+      "ownerName": "CH_M51_ACM",
+      "ownerGroup": "CH_M51_ACM::ValueFromFile",
+      "type": "variable.array",
+      "dataType": "Double",
+      "hist": 1,
+      "variableGetType": "valueFromSource",
+      "valueFromSourceParams": {
+        "dataType": "Double",
+        "arrayType": "Array"
+      },
+      "getter": "getterPlugForVariable",
+      "valueParams": {
+        "arrayDimensions": [
+          24
+        ],
+        "engineeringUnitsRange": {
+          "low": 0,
+          "high": 900000
+        },
+        "engineeringUnits": "cubic_metre_per_hour"
+      },
+      "description": "Расход выхл. газов (F VSG)"
+    },
+    {
+      "browseName": "CH_M51_ACM::23N2O:23QN2O_CORR",
+      "aliasName": "23QN2O_CORR",
+      "displayName": "23QN2O_CORR",
+      "ownerName": "CH_M51_ACM",
+      "ownerGroup": "CH_M51_ACM::ValueFromFile",
+      "type": "variable.array",
+      "dataType": "Byte",
+      "hist": 1,
+      "variableGetType": "valueFromSource",
+      "valueFromSourceParams": {
+        "dataType": "Byte",
+        "arrayType": "Array"
+      },
+      "getter": "getterPlugForVariable",
+      "valueParams": {
+        "arrayDimensions": [
+          24
+        ]
+      },
+      "description": "Коррекция по концентрация N2O (Q N2O)"
+    },
+    {
+      "browseName": "CH_M51_ACM::23VSG:23FVSG_CORR",
+      "aliasName": "23FVSG_CORR",
+      "displayName": "23FVSG_CORR",
+      "ownerName": "CH_M51_ACM",
+      "ownerGroup": "CH_M51_ACM::ValueFromFile",
+      "type": "variable.array",
+      "dataType": "Byte",
+      "hist": 1,
+      "variableGetType": "valueFromSource",
+      "valueFromSourceParams": {
+        "dataType": "Byte",
+        "arrayType": "Array"
+      },
+      "getter": "getterPlugForVariable",
+      "valueParams": {
+        "arrayDimensions": [
+          24
+        ]
+      },
+      "description": "Коррекция по расходу выхл. газов (F VSG)"
+    },
+    {
+      "browseName": "CH_M51_ACM::23HNO3:23F105_IS",
+      "aliasName": "23F105_IS",
+      "displayName": "23F105_IS",
+      "ownerName": "CH_M51_ACM",
+      "ownerGroup": "CH_M51_ACM::ValueFromFile",
+      "type": "variable.array",
+      "dataType": "Byte",
+      "hist": 1,
+      "variableGetType": "valueFromSource",
+      "valueFromSourceParams": {
+        "dataType": "Byte",
+        "arrayType": "Array"
+      },
+      "getter": "getterPlugForVariable",
+      "valueParams": {
+        "arrayDimensions": [
+          24
+        ]
+      },
+      "description": "Наличие расходов HNO3 (Is F105)"
+    }
+  ],
+  "methods": []
+}

@@ -1,0 +1,40 @@
+{
+  "objects": [
+    {
+      "isEnable": false,
+      "browseName": "CH_M5",
+      "displayName": "Черкассы 'АЗОТ' цех M5",
+      "type": "object"
+    },
+    {
+      "isEnable": true,
+      "browseName": "CH_M51",
+      "displayName": "Черкассы 'АЗОТ' цех M5/1",
+      "type": "object"
+    },
+    {
+      "isEnable": true,
+      "browseName": "CH_M52",
+      "displayName": "Черкассы 'АЗОТ' цех M5/2",
+      "type": "object"
+    },
+    {
+      "isEnable": false,
+      "browseName": "CH_M51_ACM",
+      "displayName": "Черкассы 'АЗОТ' цех M5/1 ACM  Агр(2..3)",
+      "type": "object"
+    },
+    {
+      "isEnable": false,
+      "browseName": "CH_M52_ACM",
+      "displayName": "Черкассы 'АЗОТ' цех M5/2 ACM  Агр(1..4)",
+      "type": "object"
+    },
+    {
+      "isEnable": false,
+      "browseName": "CH_M52_ACM2",
+      "displayName": "Черкассы 'АЗОТ' цех M5/2 ACM2  Агр(5..7)",
+      "type": "object"
+    }
+  ]
+}

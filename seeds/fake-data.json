@@ -1,0 +1,476 @@
+{
+  "users": [
+    {
+      "_id": "60af3870270f24162c049c09",
+      "email": "Nelle1@hotmail.com",
+      "password": "Nelle1",
+      "firstName": "Laila",
+      "lastName": "Sporer",
+      "roleId": "60af3870270f24162c049c0c",
+      "profileId": "60af3870270f24162c049c15",
+      "active": true,
+      "isVerified": true,
+      "googleId": "4943272568946688",
+      "githubId": "5339869586915328",
+      "loginAt": "1970-01-01T00:00:00.000Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/mactopus_128.jpg"
+    },
+    {
+      "_id": "60af3870270f24162c049c0a",
+      "email": "Victoria.McKenzie@gmail.com",
+      "password": "Victoria.McKenzie",
+      "firstName": "Kristoffer",
+      "lastName": "Von",
+      "roleId": "60af3870270f24162c049c0d",
+      "profileId": "60af3870270f24162c049c16",
+      "active": true,
+      "isVerified": true,
+      "googleId": "352972223545344",
+      "githubId": "3978578282676224",
+      "loginAt": "1970-01-01T00:00:00.000Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/mhesslow_128.jpg"
+    },
+    {
+      "_id": "60af3870270f24162c049c0b",
+      "email": "Annalise.Reilly53@gmail.com",
+      "password": "Annalise.Reilly53",
+      "firstName": "Jared",
+      "lastName": "Hoppe",
+      "roleId": "60af3870270f24162c049c0e",
+      "profileId": "60af3870270f24162c049c17",
+      "active": true,
+      "isVerified": true,
+      "googleId": "1346110658445312",
+      "githubId": "8148342487908352",
+      "loginAt": "1970-01-01T00:00:00.000Z",
+      "avatar": "https://cdn.fakercloud.com/avatars/guillemboti_128.jpg"
+    }
+  ],
+  "roles": [
+    {
+      "_id": "60af3870270f24162c049c0c",
+      "name": "Administrator",
+      "alias": "isAdministrator",
+      "description": "Sed sint ea doloribus id quibusdam numquam quaerat."
+    },
+    {
+      "_id": "60af3870270f24162c049c0d",
+      "name": "Guest",
+      "alias": "isGuest",
+      "description": "Consequatur suscipit ut."
+    },
+    {
+      "_id": "60af3870270f24162c049c0e",
+      "name": "Customer Security Strategist",
+      "alias": "isCustomerSecurityStrategist",
+      "description": "Impedit ducimus earum quaerat qui omnis atque distinctio."
+    }
+  ],
+  "teams": [
+    {
+      "_id": "60af3870270f24162c049c0f",
+      "name": "Ergonomic Fresh Mouse",
+      "alias": "isErgonomicFreshMouse",
+      "description": "Nulla nihil molestiae non saepe aperiam adipisci voluptate."
+    },
+    {
+      "_id": "60af3870270f24162c049c10",
+      "name": "Licensed Concrete Salad",
+      "alias": "isLicensedConcreteSalad",
+      "description": "Ut velit dolores sint."
+    },
+    {
+      "_id": "60af3870270f24162c049c11",
+      "name": "Gorgeous Wooden Pizza",
+      "alias": "isGorgeousWoodenPizza",
+      "description": "Velit exercitationem eum autem fugiat."
+    }
+  ],
+  "userTeams": [
+    {
+      "_id": "60af3870270f24162c049c12",
+      "teamId": "60af3870270f24162c049c0f",
+      "userId": "60af3870270f24162c049c09"
+    },
+    {
+      "_id": "60af3870270f24162c049c13",
+      "teamId": "60af3870270f24162c049c10",
+      "userId": "60af3870270f24162c049c0a"
+    },
+    {
+      "_id": "60af3870270f24162c049c14",
+      "teamId": "60af3870270f24162c049c11",
+      "userId": "60af3870270f24162c049c0b"
+    }
+  ],
+  "userProfiles": [
+    {
+      "_id": "60af3870270f24162c049c15",
+      "personalPhone": "586-410-1968",
+      "personalWebSite": "https://johnpaul.org",
+      "addressSuite": "Apt. 134",
+      "addressStreet": "0107 Ebony Mountains",
+      "addressCity": "East Turner",
+      "addressState": "Indiana",
+      "addressStateAbbr": "LA",
+      "addressCountry": "Macedonia",
+      "addressCountryCode": "HM",
+      "addressZipCode": "64901-8555",
+      "addressLatitude": "-1.4416",
+      "addressLongitude": "-34.2463",
+      "jobCompanyName": "Fritsch - Prohaska",
+      "jobTitle": "Forward Markets Orchestrator",
+      "jobType": "Assistant",
+      "jobPhone": "894-856-7672",
+      "jobWebSite": "http://nelda.name",
+      "jobEmail": "Meghan41@example.org"
+    },
+    {
+      "_id": "60af3870270f24162c049c16",
+      "personalPhone": "119-109-1273",
+      "personalWebSite": "https://ralph.name",
+      "addressSuite": "Suite 689",
+      "addressStreet": "2294 Hayes Points",
+      "addressCity": "Turcotteton",
+      "addressState": "Kansas",
+      "addressStateAbbr": "KS",
+      "addressCountry": "Greenland",
+      "addressCountryCode": "MK",
+      "addressZipCode": "42759-6481",
+      "addressLatitude": "-36.7441",
+      "addressLongitude": "-85.1005",
+      "jobCompanyName": "Larson LLC",
+      "jobTitle": "Regional Quality Consultant",
+      "jobType": "Developer",
+      "jobPhone": "994-202-5576",
+      "jobWebSite": "http://armand.name",
+      "jobEmail": "Magnus22@example.org"
+    },
+    {
+      "_id": "60af3870270f24162c049c17",
+      "personalPhone": "374-691-1193",
+      "personalWebSite": "https://brennon.com",
+      "addressSuite": "Suite 669",
+      "addressStreet": "404 Gottlieb Forges",
+      "addressCity": "Leaview",
+      "addressState": "Oregon",
+      "addressStateAbbr": "RI",
+      "addressCountry": "Grenada",
+      "addressCountryCode": "DM",
+      "addressZipCode": "57128-4557",
+      "addressLatitude": "84.5519",
+      "addressLongitude": "71.6565",
+      "jobCompanyName": "O'Hara and Sons",
+      "jobTitle": "Product Solutions Developer",
+      "jobType": "Analyst",
+      "jobPhone": "611-132-1981",
+      "jobWebSite": "https://carmine.biz",
+      "jobEmail": "Blanca.Watsica@example.org"
+    }
+  ],
+  "logMessages": [
+    {
+      "_id": "60af3870270f24162c049c18",
+      "gr": "TEST",
+      "pr": 10,
+      "name": "TEST",
+      "ownerId": "60af3870270f24162c049c09",
+      "userId": "60af3870270f24162c049c09",
+      "msg": "{\"message\":\"Ullam eum enim incidunt unde omnis laborum voluptatum explicabo.\"}"
+    }
+  ],
+  "chatMessages": [
+    {
+      "_id": "60af3870270f24162c049c19",
+      "ownerId": "60af3870270f24162c049c09",
+      "userId": "000000000000000000000000",
+      "teamId": "000000000000000000000000",
+      "roleId": "60af3870270f24162c049c0e",
+      "msg": "Eaque dolores asperiores in delectus excepturi id vel."
+    },
+    {
+      "_id": "60af3870270f24162c049c1a",
+      "ownerId": "60af3870270f24162c049c09",
+      "userId": "000000000000000000000000",
+      "teamId": "60af3870270f24162c049c0f",
+      "roleId": "000000000000000000000000",
+      "msg": "Mollitia et id et esse."
+    },
+    {
+      "_id": "60af3870270f24162c049c1b",
+      "ownerId": "60af3870270f24162c049c09",
+      "userId": "60af3870270f24162c049c0a",
+      "teamId": "000000000000000000000000",
+      "roleId": "000000000000000000000000",
+      "msg": "Sit pariatur labore ullam in."
+    },
+    {
+      "_id": "60af3870270f24162c049c1c",
+      "ownerId": "60af3870270f24162c049c09",
+      "userId": "60af3870270f24162c049c0b",
+      "teamId": "000000000000000000000000",
+      "roleId": "000000000000000000000000",
+      "msg": "Qui sequi non sit ut delectus quam rem et sapiente."
+    }
+  ],
+  "opcuaTags": [
+    {
+      "_id": "60af3870270f24162c049c1d",
+      "browseName": "CH_M51",
+      "displayName": "Cherkassy 'AZOT' M5-1",
+      "type": "object",
+      "histParams": {
+        "opcuaId": "ua-cherkassy-azot_test2",
+        "opcuaUrl": "http://localhost:3030",
+        "savingValuesMode": "update"
+      },
+      "view": {
+        "tab1": [
+          {
+            "name": "Common plant",
+            "items": [
+              "01"
+            ]
+          },
+          {
+            "name": "Aggregate 1/1",
+            "items": [
+              "11"
+            ]
+          },
+          {
+            "name": "Aggregate 2/1",
+            "items": [
+              "21"
+            ]
+          },
+          {
+            "name": "Aggregate 3/1",
+            "items": [
+              "31"
+            ]
+          }
+        ],
+        "tab2": [
+          {
+            "name": "Ammonia",
+            "items": [
+              "AMIAK"
+            ]
+          },
+          {
+            "name": "Natural gas",
+            "items": [
+              "PGAZ"
+            ]
+          },
+          {
+            "name": "Steam16",
+            "items": [
+              "PAR"
+            ]
+          },
+          {
+            "name": "HNO3 Store",
+            "items": [
+              "SKLAD"
+            ]
+          },
+          {
+            "name": "Water",
+            "items": [
+              "VODA",
+              "VODA_XOB"
+            ]
+          },
+          {
+            "name": "Compression",
+            "items": [
+              "PS180",
+              "SBS_OC",
+              "GTT",
+              "UKST",
+              "RD"
+            ]
+          },
+          {
+            "name": "Conversion",
+            "items": [
+              "KONV",
+              "ABSOR",
+              "OXG"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "_id": "60af3870270f24162c049c1e",
+      "browseName": "CH_M51::ValueFromFile",
+      "displayName": "Values from file for CH_M51",
+      "ownerName": "CH_M51",
+      "type": "variable.simple",
+      "dataType": "String",
+      "hist": 1,
+      "store": {
+        "numberOfValuesInDoc": [
+          3,
+          "days"
+        ],
+        "numberOfDocsForTag": [
+          6,
+          "days"
+        ]
+      },
+      "group": true,
+      "variableGetType": "valueFromSource",
+      "getter": "getterHistValueFromPath",
+      "getterParams": {
+        "path": "//192.168.3.5/www_m5/m5_data2",
+        "interval": 15000
+      }
+    },
+    {
+      "_id": "60af3870270f24162c049c1f",
+      "browseName": "CH_M51::01AMIAK:01T4",
+      "aliasName": "01NH3_T4",
+      "displayName": "01NH3_T4",
+      "ownerName": "CH_M51",
+      "ownerGroup": "CH_M51::ValueFromFile",
+      "type": "variable.analog",
+      "dataType": "Double",
+      "hist": 1,
+      "variableGetType": "valueFromSource",
+      "getter": "getterPlugForVariable",
+      "valueParams": {
+        "engineeringUnitsRange": {
+          "low": 0,
+          "high": 200
+        },
+        "engineeringUnits": "degree_celsius"
+      },
+      "description": "Т of GA"
+    },
+    {
+      "_id": "60af3870270f24162c049c20",
+      "browseName": "CH_M51::01AMIAK:01P4_1",
+      "aliasName": "01NH3_P4",
+      "displayName": "01NH3_P4",
+      "ownerName": "CH_M51",
+      "ownerGroup": "CH_M51::ValueFromFile",
+      "type": "variable.analog",
+      "dataType": "Double",
+      "hist": 1,
+      "variableGetType": "valueFromSource",
+      "getter": "getterPlugForVariable",
+      "valueParams": {
+        "engineeringUnitsRange": {
+          "low": 0,
+          "high": 10
+        },
+        "engineeringUnits": "kilogram_force_per_square_centimetre"
+      },
+      "description": "Р of GA"
+    }
+  ],
+  "opcuaValues": [
+    {
+      "_id": "60af3870270f24162c049c21",
+      "tagId": "60af3870270f24162c049c1e",
+      "tagName": "CH_M51::ValueFromFile",
+      "opcuaData": [
+        {
+          "key": "CH_M51::01AMIAK:01T4",
+          "value": 166.128945
+        },
+        {
+          "key": "CH_M51::01AMIAK:01P4_1",
+          "value": 6.123245
+        }
+      ]
+    },
+    {
+      "_id": "60af3870270f24162c049c24",
+      "tagId": "60af3870270f24162c049c1f",
+      "tagName": "CH_M51::01AMIAK:01T4",
+      "storeStart": "2022-01-01",
+      "storeEnd": "2022-01-02",
+      "store": {
+        "count": 2,
+        "period": [
+          "2022-01-01T00:00:00",
+          "2022-01-03T23:59:59"
+        ],
+        "hash": "4991782fcf7fff0e5bb16b43de20f7b989aa9738"
+      },
+      "opcuaData": [
+        {
+          "key": "2022-01-02",
+          "hash": "5baf17d1c0d7beac7ceaabf49e67fd577c899e3c",
+          "value": 180.56,
+          "params": {
+            "dateTime": "2022-01-02"
+          }
+        },
+        {
+          "key": "2022-01-01",
+          "hash": "b1df740247202296415822536e2aaab09cb56b26",
+          "value": 166.128945,
+          "params": {
+            "dateTime": "2022-01-01"
+          }
+        }
+      ]
+    },
+    {
+      "_id": "60af3870270f24162c049c25",
+      "tagId": "60af3870270f24162c049c20",
+      "tagName": "CH_M51::01AMIAK:01P4_1",
+      "storeStart": "2022-01-01",
+      "storeEnd": "2022-01-02",
+      "store": {
+        "count": 2,
+        "period": [
+          "2022-01-01T00:00:00",
+          "2022-01-03T23:59:59"
+        ],
+        "hash": "fc0963952366b0f423b3de41ef6dc917964878d0"
+      },
+      "opcuaData": [
+        {
+          "key": "2022-01-02",
+          "hash": "0e25850d69cec8081b89158d63c4c23b43ba6757",
+          "value": 8.56,
+          "params": {
+            "dateTime": "2022-01-02"
+          }
+        },
+        {
+          "key": "2022-01-01",
+          "hash": "9c154ec649afa2b0246162df485125d61019b2df",
+          "value": 6.128945,
+          "params": {
+            "dateTime": "2022-01-01"
+          }
+        }
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "_id": "60af3870270f24162c049c26",
+      "userId": "60af3870270f24162c049c09",
+      "text": "Mollitia et id et esse."
+    },
+    {
+      "_id": "60af3870270f24162c049c27",
+      "userId": "60af3870270f24162c049c0a",
+      "text": "Sit pariatur labore ullam in."
+    },
+    {
+      "_id": "60af3870270f24162c049c28",
+      "userId": "60af3870270f24162c049c0b",
+      "text": "Qui sequi non sit ut delectus quam rem et sapiente."
+    }
+  ]
+}

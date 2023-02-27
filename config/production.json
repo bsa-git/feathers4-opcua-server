@@ -1,0 +1,4 @@
+{
+  "nedb": "NEDB_PROD_PATH",
+  "mongodb": "MONGODB_PROD_URL"
+}
